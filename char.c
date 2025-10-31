@@ -11,15 +11,15 @@ Write your code in this editor and press "Run" button to compile and execute it.
 int main()
 {
     int diff;
-    char large; 
     char small;
+    char large;
     
     printf("アルファベットの小文字を入力してください>>>");
     scanf("%c", &small);
     diff = 'A' - 'a';
     large = small + diff;
     
-    printf("小文字は%c  大文字は%c/n", small, large);
+    printf("小文字は%c  大文字は%c\n", small, large);
 
     return 0;
 }
